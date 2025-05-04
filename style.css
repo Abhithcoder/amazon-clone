@@ -89,6 +89,8 @@ header {
 
 footer {
   text-align: center;
+  position: fixed;
+  bottom: 0;
   padding: 20px;
   background-color: #232f3e;
   color: white;
