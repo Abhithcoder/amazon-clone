@@ -3,49 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amazon Clone</title>
+  <title>Amazon</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
   <header>
-    <div class="logo">amazon<span>.in</span></div>
-    <input type="text" class="search-box" placeholder="Search Amazon.in">
-    <button class="search-btn">🔍</button>
-    <div class="nav-links">
-      <a href="#">Sign In</a>
-      <a href="#">Returns & Orders</a>
-      <a href="#">Cart 🛒</a>
+    <div class="navbar">
+      <div class="nav-logo border">
+        <div class="logo"></div>
+      </div>
+      <div class="nav-address">
+        <p class="add-first">Deliver to</p>
+        <div class="add-icon">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="add-second">India</p>
+        </div>
+      </div>
     </div>
   </header>
-
-  <nav class="navbar">
-    <a href="#">All</a>
-    <a href="#">Mobiles</a>
-    <a href="#">Deals</a>
-    <a href="#">Electronics</a>
-    <a href="#">Fashion</a>
-  </nav>
-
-  <main class="product-grid">
-    <div class="product-card">
-      <img src="https://via.placeholder.com/150" alt="Product">
-      <h3>Product Title</h3>
-      <p>₹999</p>
-      <button onclick="addToCart('Product Title')">Add to Cart</button>
-    </div>
-    <div class="product-card">
-      <img src="https://via.placeholder.com/150" alt="Product">
-      <h3>Another Product</h3>
-      <p>₹1,499</p>
-      <button onclick="addToCart('Another Product')">Add to Cart</button>
-    </div>
-    <!-- Add more product cards as needed -->
-  </main>
-
-  <footer>
-    <p>© 2025 Amazon Clone. Built with ❤️ for learning.</p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
